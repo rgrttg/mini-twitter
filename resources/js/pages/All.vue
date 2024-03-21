@@ -29,7 +29,10 @@
         {{ tweet.text }}<br>
         {{ tweet.id }}
         <!-- hier noch auf ~/tweet/id~ verlinken -->
-        <router-link to="/tweet/1">Tweet ansehen</router-link>
+        <!-- <router-link v-bind:to="'/tweet/' + tweet.id">Tweet ansehen</router-link> -->
+        <!-- oder kürzer -->
+        <router-link :to="`/tweet/${tweet.id}`">Tweet ansehen</router-link>
+
       </li>
     </ul>
 </template>
