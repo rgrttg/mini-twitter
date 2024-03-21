@@ -14,11 +14,11 @@ Route::get('/all', [TweetController::class, 'all']);
 // Für einen neuen Tweet
 Route::post('/new', [TweetController::class, 'store']);
 
-
-
 // Für einen einzelnen Tweet
-// eventuell wird noch eine id gebraucht
-Route::get('/tweet/{id}', [TweetController::class, 'show']);
+// Route::get('/tweet/{id}', [TweetController::class, 'show']);
+Route::get('/tweet', [TweetController::class, 'show']);
+
+// TODO
 
 // Um einen Tweet zu edieren
 // eventuell wird auch hier noch eine id gebraucht

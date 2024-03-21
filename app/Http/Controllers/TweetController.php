@@ -13,24 +13,19 @@ class TweetController extends Controller
     }
     
     public function  store(Request $request) {
-        // return $request->title;
-        // echo "Hello";
         $newTweet = Tweet::create([
             // 'datenbank' => $request->post-daten
             'title' => $request->requestTitle,
             'text' => $request->requestText,
         ]);
-
-        // $this->show($newContact->id);
-        // jetzt nach show weiterleiten
-        // return redirect("/tweet/$newTweet->id");
-        // im vue.js machen?
+        // gebe Tweet zurück
         return $newTweet;
     }
     
     // zeige einen Tweet an ~show(id)~
-    public function show($id){
-        $tweet = Tweet::find($id);
+    public function show(Request $request){
+        // $tweet = Tweet::find($request->id);
+        $tweet = Tweet::find($request->requestId);
         return $tweet;
     }
     

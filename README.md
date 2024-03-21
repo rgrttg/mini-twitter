@@ -3,14 +3,14 @@ Projekt-Nr. 10
 
 ## Inhalt
 1. Beschreibung
-2. Installation
+2. Start
 3. Dateien
 4. Links
 
 ## 1. Beschreibung
 Eine responsive Mini-Twitter App mit Laravel als API im Backend und vue.js fürs Frontend.
 
-## 2. Starten
+## 2. Start
 ### 2.1. Docker Container hochfahren
 ```bash
 sail up
@@ -46,8 +46,8 @@ resources/
     router.js
     pages/
       All.vue
-      Edit.vue
       New.vue
       Single.vue
+      (Edit.vue)
 routes/
   api.php

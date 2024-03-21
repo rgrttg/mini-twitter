@@ -25,9 +25,9 @@
     <h2> Vorname Nachname </h2>
     <ul>
       <li v-for="tweet in response ">
+        {{ tweet.id }}<br>
         {{ tweet.title }}<br>
         {{ tweet.text }}<br>
-        {{ tweet.id }}
         <!-- hier noch auf ~/tweet/id~ verlinken -->
         <!-- <router-link v-bind:to="'/tweet/' + tweet.id">Tweet ansehen</router-link> -->
         <!-- oder kürzer -->
