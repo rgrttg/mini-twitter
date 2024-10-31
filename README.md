@@ -31,6 +31,7 @@ http://localhost
 http://localhost:8080
 ```
 ## 3. Dateien
+```bash
 README.md
 RETROSPECTIVE.md
 app/
@@ -43,7 +44,11 @@ database/
     2024_03_14_080151_create_tweets_table.php
 resources/
   js/
+    App.vue
     router.js
+    components/
+      BaseFooter.vue
+      BaseHeader.vue
     pages/
       All.vue
       New.vue
@@ -51,3 +56,4 @@ resources/
       (Edit.vue)
 routes/
   api.php
+```

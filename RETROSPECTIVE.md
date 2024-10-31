@@ -54,6 +54,9 @@ Anzeigen eines...
 ## 21.03.2024 Donnerstag
 einzelnen Tweets... OK
 
+## 31.10.2024
+commit changes from 21.03.24
+Add BaseHeader.vue and BaseFooter.vue
 
 ## Todo
 ## Funktionen
