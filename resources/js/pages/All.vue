@@ -20,7 +20,6 @@
 </script>
 
 <template>
-  <router-link to="/new">+ Tweet erstellen</router-link>
   <h1> Feed von </h1>
     <h2> Vorname Nachname </h2>
     <ul>

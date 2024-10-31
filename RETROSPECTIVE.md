@@ -61,6 +61,7 @@ commit changes from 26.03.24:
 Add app.css
 Work in progress:
 Add Edit.vue
+Remove link: Tweet erstellen
 
 ## Todo
 ## Funktionen
