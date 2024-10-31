@@ -56,7 +56,7 @@ resources/
       All.vue
       New.vue
       Single.vue
-      (Edit.vue)
+      Edit.vue
 routes/
   api.php
 ```
