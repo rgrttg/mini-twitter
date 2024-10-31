@@ -43,7 +43,10 @@ database/
   migrations/
     2024_03_14_080151_create_tweets_table.php
 resources/
+  css/
+    app.css
   js/
+    app.js
     App.vue
     router.js
     components/

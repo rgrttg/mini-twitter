@@ -57,6 +57,8 @@ einzelnen Tweets... OK
 ## 31.10.2024
 commit changes from 21.03.24
 Add BaseHeader.vue and BaseFooter.vue
+commit changes from 26.03.24
+Add app.css
 
 ## Todo
 ## Funktionen

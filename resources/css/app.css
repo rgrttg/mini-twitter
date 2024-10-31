@@ -1,0 +1,22 @@
+/* color palette from 
+https://www.figma.com/file/3AO216bDpIIubHvfAtRqCI/Mini-Twitter?type=design&node-id=1-3&mode=design&t=zxo0MJhlGAKZGdOR-0 */
+:root {
+  --schwarz: #222222;
+  --weiss: #FFFFFF;
+  --grau: #F9F9F9;
+  --grau2: #F1F1F1;
+  --rot: #DF1313;
+  --blau: #1D9BF0;
+  ;
+
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--grau);
+
+}
+
+h1 {
+  color: var(--color-background);
+}
